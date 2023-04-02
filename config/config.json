@@ -1,0 +1,38 @@
+{
+  "p1": {
+    "l1": {
+      "s1": {"sensor_id": "ultrasonic sensor id"},
+      "s2": {"sensor_id": "ultrasonic sensor id"},
+      "s3": {"sensor_id": "ultrasonic sensor id"},
+      "s4": {"sensor_id": "ultrasonic sensor id"},
+      "s5": {"sensor_id": "ultrasonic sensor id"},
+      "s6": {"sensor_id": "ultrasonic sensor id"}
+    },
+    "l2": {
+      "s1": {"sensor_id": "ultrasonic sensor id"},
+      "s2": {"sensor_id": "ultrasonic sensor id"},
+      "s3": {"sensor_id": "ultrasonic sensor id"},
+      "s4": {"sensor_id": "ultrasonic sensor id"},
+      "s5": {"sensor_id": "ultrasonic sensor id"},
+      "s6": {"sensor_id": "ultrasonic sensor id"}
+    }
+  },
+  "p2": {
+    "l1": {
+      "s1": {"sensor_id": "ultrasonic sensor id"},
+      "s2": {"sensor_id": "ultrasonic sensor id"},
+      "s3": {"sensor_id": "ultrasonic sensor id"},
+      "s4": {"sensor_id": "ultrasonic sensor id"},
+      "s5": {"sensor_id": "ultrasonic sensor id"},
+      "s6": {"sensor_id": "ultrasonic sensor id"}
+    },
+    "l2": {
+      "s1": {"sensor_id": "ultrasonic sensor id"},
+      "s2": {"sensor_id": "ultrasonic sensor id"},
+      "s3": {"sensor_id": "ultrasonic sensor id"},
+      "s4": {"sensor_id": "ultrasonic sensor id"},
+      "s5": {"sensor_id": "ultrasonic sensor id"},
+      "s6": {"sensor_id": "ultrasonic sensor id"}
+    }
+  }
+}

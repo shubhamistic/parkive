@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bungee&family=Roboto:wght@700&display=swap');
+
+body{
+    margin: 0;
+    background-color: #27282c;
+    font-family: 'Bungee', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+#parking-container{
+    position: absolute;
+    width: 40vw;
+    height: 80vh;
+    right: 5vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.strip{
+    position: absolute;
+    margin: 0;
+    background: repeating-linear-gradient(
+            45deg,
+            goldenrod,
+            goldenrod 10px,
+            black 10px,
+            black 20px
+    );
+}
+
+.vertical-strip {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+    width: 20px;
+}
+
+.horizontal-strip{
+    height: 20px;
+    width: 40vw;
+}
+
+#strip-1{
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+#strip-2{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#strip-3{
+    transform: translateX(-50%);
+    bottom: 0;
+    left: 50%;
+}
+
+.indicator{
+    position: absolute;
+    height: 10vh;
+    width: 10vw;
+    background-color: limegreen;
+}
+
+#ind-1{
+    top: 20%;
+    left: 15%;
+}
+
+#ind-2{
+    top: 20%;
+    right: 15%;
+}
+
+#ind-3{
+    bottom: 20%;
+    left: 15%;
+}
+
+#ind-4{
+    bottom: 20%;
+    right: 15%;
+}
+
+#parking-dashboard{
+    position: absolute;
+    width: 40vw;
+    height: 70vh;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5vw;
+}
+
+#spots-counter{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 150px;
+    width: 250px;
+    background-color: black;
+}
+
+#spots-counter p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    margin: 0;
+    font-size: 70px;
+    color: white;
+    font-family: 'Abel', monospace;
+    font-weight: bold;
+}
+
+#spots-counter h1{
+    margin: 0;
+    background-color: goldenrod;
+    font-size: 25px;
+    text-align: center;
+}
+
+#data-console{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40vh;
+    width: 40vw;
+    background-color: black;
+    border: solid 2px goldenrod;
+}
+
+#data-console h1{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+#data-console div{
+    width: calc(40vw - 10px);
+    height: 30vh;
+    overflow: scroll;
+}
+
+#data-console div ol{
+    color: white;
+}
+
+#data-console div ol li{
+    width: 35vw;
+}
+
+#data-console div ol li::marker {
+  color: goldenrod; /* change the color to your desired color */
+}
+
+#logo{
+    position: absolute;
+    bottom: -20%;
+    left: 10%;
+}

@@ -61,14 +61,13 @@ CLICK [SET UP FLASK SERVER FOR DATA VISUALIZATION »](server_setup)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## Tech Stack
 **Client:** HTML, CSS, JavaScript, C++ *(for arduino)*
 
 **Server:** Python Flask
 
 ## License
-[MIT](LICENSE)
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Authors
 - [@shubhamistic](https://www.github.com/shubhamistic)
@@ -77,4 +76,5 @@ CLICK [SET UP FLASK SERVER FOR DATA VISUALIZATION »](server_setup)
 
 ## Feedback
 If you have any feedback, please reach out to us at [shubham2003garg@gmail.com](mailto:shubham2003garg@gmail.com)
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)<z/p>
