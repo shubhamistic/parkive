@@ -18,7 +18,7 @@
 
 ## Demo
 
-<img src="demo.gif" alt="Parkive Demo" width="100%">
+<img src="assets/demo.gif" alt="Parkive Demo" width="100%">
 
 ## Description
 
